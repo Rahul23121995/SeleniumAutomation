@@ -24,6 +24,9 @@ public class test0 {
 	driver.findElement(By.cssSelector("input[type='text']")).sendKeys("7676330700");
 	driver.findElement(By.cssSelector("button[type='submit']")).click();
 	driver.navigate().back();
+	driver.navigate().forward();
+	driver.navigate().refresh();
+	driver.close();
 	
 	
 	
